@@ -1,0 +1,19 @@
+@media screen and (max-width:1200px) {
+    .RecomLists {
+        display: flex;
+        flex-wrap: wrap;
+        position: absolute;
+        width: 80%;
+        left: 180rem;
+    }
+}
+
+@media screen and (min-width:1200px) {
+    .RecomLists {
+        display: flex;
+        flex-wrap: wrap;
+        position: absolute;
+        width: 80%;
+        left: 140rem;
+    }
+}

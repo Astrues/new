@@ -1,0 +1,7 @@
+.Middle {
+    display: flex;
+    margin-left: 50px;
+}
+.Middle li {
+    margin: 10px;
+}

@@ -1,0 +1,29 @@
+.Recommend {
+    position: absolute;
+    top: 500px;
+    width: 100%;
+    height: 100%;
+}
+
+.Title1 {
+    position: absolute;
+    left: 200rem;
+    font-size: 26px;
+    top: -50px;
+}
+
+.Title1::after {
+    content: "›";
+    margin-left: 10px;
+}
+.Title2 {
+    position: absolute;
+    left: 200rem;
+    font-size: 26px;
+    top: 520px;
+}
+
+.Title2::after {
+    content: "›";
+    margin-left: 10px;
+}

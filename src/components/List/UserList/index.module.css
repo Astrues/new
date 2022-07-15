@@ -1,0 +1,52 @@
+.Title {
+    box-sizing: border-box;
+    margin: 2px 2px 0 12px;
+    color: #999999;
+    font-size: 14px;
+    margin-left: 10px;
+    padding: 10px;
+    cursor: default;
+}
+
+.UserDec li a {
+    display: block;
+    box-sizing: border-box;
+    width: 180px;
+    height: 40px;
+    margin: 2px 2px 0 12px;
+    padding: 10px;
+    font-size: 16px;
+}
+
+.UserDec li a:hover {
+    background-color: #f6f6f7;
+}
+
+.Detail {
+    position: relative;
+    box-sizing: border-box;
+    margin: 2px 2px 0 12px;
+    margin-top: 10px;
+    padding: 10px;
+    color: #999999;
+    cursor: pointer;
+}
+
+.Detail span::after {
+    content: "+";
+    position: absolute;
+    left: 160px;
+    top: 3px;
+    font-size: 26px;
+    font-weight: 100;
+    color: #292929;
+}
+
+.MyLike a {
+    display: block;
+    box-sizing: border-box;
+    width: 180px;
+    height: 40px;
+    margin: 0 2px 0 12px;
+    padding: 10px;
+}

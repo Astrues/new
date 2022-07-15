@@ -1,0 +1,1 @@
+export const baseUrl = 'https://cloud-music-api-psi-nine.vercel.app/'

@@ -1,0 +1,17 @@
+.Top li a {
+    display: block;
+    box-sizing: border-box;
+    width: 180px;
+    height: 40px;
+    margin: 2px 2px 0 12px;
+    padding: 10px;
+    font-size: 16px;
+}
+
+.Top li:nth-of-type(1) {
+    margin-top: 12px;
+}
+
+.Top li a:hover {
+    background-color: #f6f6f7;
+}

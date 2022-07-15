@@ -1,0 +1,5 @@
+.Song {
+    display: flex;
+    height: 32px;
+    width: 100%;
+}

@@ -1,0 +1,9 @@
+.SlideShow {
+    /* display: flex; */
+    position: absolute;
+    width: 540px;
+    height: 200px;
+    right: 200rem;
+    top: -300px;
+    overflow: hidden;
+}

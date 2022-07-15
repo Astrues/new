@@ -1,0 +1,25 @@
+.User {
+    margin-top: 10px;
+    display: flex;
+    align-items: center;
+}
+
+.UserImg {
+    width: 24px;
+    height: 24px;
+    border-radius: 24px;
+}
+
+.UserName {
+    color: #507daf;
+    margin: 5px;
+}
+
+.UserName:hover {
+    color: #0b58b0;
+    cursor: pointer;
+}
+
+.CreateTime {
+    color: #676767;
+}

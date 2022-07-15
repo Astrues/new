@@ -1,0 +1,31 @@
+.Top {
+    display: flex;
+    margin-top: 50px;
+}
+
+.Img {
+    width: 184px;
+    height: 184px;
+    margin-left: 30px;
+}
+
+.Container {
+    margin-left: 20px;
+}
+
+.Title {
+    font-weight: 700;
+    font-size: 26px;
+}
+
+.Title::before {
+    content: "歌单";
+    width: 36px;
+    height: 20px;
+    border: 1px solid #ee4141;
+    font-size: 14px;
+    color: #ee4141;
+    border-radius: 3px;
+    margin-right: 25px;
+}
+

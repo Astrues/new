@@ -1,0 +1,15 @@
+.TopRecom {
+    display: flex;
+    position: absolute;
+    top: 60px;
+    left: 200px;
+    font-size: 18px;
+}
+
+.TopRecom li a {
+    display: block;
+    width: 85px;
+    height: 40px;
+    line-height: 40px;
+    text-align: center;
+}

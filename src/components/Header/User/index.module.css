@@ -1,0 +1,30 @@
+.User {
+    width: 200px;
+    display: flex;
+    align-items: center;
+    cursor: pointer;
+}
+
+.UserContainer {
+    width: 28px;
+    height: 28px;
+    background-color: #e0e0e0;
+    border-radius: 28px;
+}
+
+.UserIcon {
+    font-size: 20px;
+    color: #eeeeee;
+    margin: 5px 5px 5px 5px;
+}
+
+.State {
+    margin-left: 10px;
+    font-size: 14px;
+    color: #fbd9d9;
+}
+.Img{
+    width: 28px;
+    height: 28px;
+    border-radius: 28px;
+}

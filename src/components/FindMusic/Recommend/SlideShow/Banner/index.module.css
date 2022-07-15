@@ -1,0 +1,14 @@
+.Banner {
+    width: 540px;
+    height: 200px;
+    float: left;
+    position: absolute;
+    left: 0px;
+    transition-duration: .4s;
+}
+
+.Img {
+    width: 540px;
+    height: 200px;
+    border-radius: 5px;
+}

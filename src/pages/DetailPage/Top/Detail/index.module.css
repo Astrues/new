@@ -1,0 +1,29 @@
+.Detail {
+    margin-top: 50px;
+    cursor: default;
+}
+
+.Span span {
+    color: #507daf;
+    cursor: pointer;
+}
+
+.Span span:hover {
+    color: #5758b7;
+}
+
+.Song {
+    margin-top: 10px;
+}
+
+.Jianjie {
+    margin-top: 10px;
+    width: 70%;
+    color: #676767;
+    cursor:auto;
+}
+
+.Jianjie::before {
+    content: "简介 : ";
+    color: #373737;
+}

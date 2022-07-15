@@ -1,0 +1,32 @@
+.Search {
+    position: absolute;
+    left: 300px;
+}
+
+.SearchIcon {
+    position: absolute;
+    color: #f8cfcf;
+    font-size: 20px;
+    top: 5px;
+    left: 5px;
+}
+
+.Input {
+    width: 160px;
+    height: 32px;
+    border: none;
+    outline: none;
+    background-color: #e33e3e;
+    padding: 0 30px;
+    border-radius: 32px;
+    color: #ffffff;
+}
+
+.Input::placeholder {
+    color: #f19f9f;
+}
+
+.Content {
+    display: flex;
+    position: relative;
+}
