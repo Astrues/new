@@ -2,4 +2,16 @@
     display: flex;
     height: 32px;
     width: 100%;
+    line-height: 32px;
+    font-size: 16px;
+    color: #363636;
+}
+
+.Serial {
+    color: #cfcfcf;
+    margin-left: 20rem;
+}
+
+.Name {
+    margin-left: 65rem;
 }

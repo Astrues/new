@@ -4,6 +4,7 @@ import styles from './index.module.css'
 export default function Song(props) {
     const { data, i } = props
     console.log(data, i);
+
     return (
         <div className={styles.Song}>
             <div className={styles.Serial}>{getSerial(i + 1)}</div>

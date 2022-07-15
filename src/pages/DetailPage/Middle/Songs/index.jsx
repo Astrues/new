@@ -22,7 +22,7 @@ export default function Songs() {
       </div>
       {/* <h2>雷猴</h2> */}
       {(isLoading && !isSuccess) && <h2>Loading....</h2>}
-      {isSuccess && songsData.songs.map((item,index) => <Song key={item.id} data={item} i={index}/>)}
+      {isSuccess && songsData.songs.map((item, index) => <Song key={item.id} data={item} i={index} />)}
     </div>
   )
 }

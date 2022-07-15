@@ -5,7 +5,7 @@ import SongList from '../components/FindMusic/SongList'
 import Rank from '../components/FindMusic/Rank'
 import Singer from '../components/FindMusic/Singer'
 import NewSongs from '../components/FindMusic/NewSongs'
-import { Navigate } from 'react-router-dom'
+import HomePage from "../pages/HomePage";
 import DetailPage from "../pages/DetailPage";
 import Songs from "../pages/DetailPage/Middle/Songs";
 import Comment from "../pages/DetailPage/Middle/Comment";
@@ -17,7 +17,6 @@ const routes = [
         children: [
             {
                 path: 'recommend',
-                // element: <Navigate to='/findmusic/recommend' />,
                 element: <Recommend />,
                 children: [
                     {
@@ -64,8 +63,8 @@ const routes = [
     },
     {
         path: '/',
-        element: <Navigate to='/findmusic/recommend' />
-        // element: <HomePage />
+        element: <HomePage />
+        // element: <Navigate to='/findmusic/recommend' />
     }
 ]
 export default routes

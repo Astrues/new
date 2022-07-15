@@ -23,7 +23,7 @@ export default function RecSongList(props) {
     return (
         <Link
             onClick={clickHandler}
-            to={`list/${song.id}`}
+            to={`/findmusic/recommend/list/${song.id}`}
             className={styles.SongList}>
             <img
                 className={styles.songUrl}

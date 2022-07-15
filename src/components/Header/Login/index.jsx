@@ -4,7 +4,7 @@ import { NavLink } from 'react-router-dom'
 import { useDispatch } from 'react-redux/es/exports'
 import { useLoginPhoneMutation } from '../../../store/api/userApi'
 import styles from './index.module.css'
-import { login } from '../../../reducer/userSlice'
+import {login} from '../../../store/reducer/userSlice'
 export default function Login(props) {
     // 是否显示登录框的状态
     const { setIsShowLogin } = props
