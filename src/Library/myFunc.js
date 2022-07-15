@@ -25,6 +25,13 @@ function getSerial(n) {
 // 拼接作者
 function getAuthorName(arr) {
     let result = arr[0].name
+    if (arr.length > 2) {
+        for (let i = 1; i < 2; i++) {
+            result += (' / ' + arr[i].name)
+        }
+        result += ' /...'
+        return result
+    }
     if (arr.length > 1) {
         for (let i = 1; i < arr.length; i++) {
             result += (' / ' + arr[i].name)

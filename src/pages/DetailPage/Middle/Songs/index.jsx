@@ -10,19 +10,23 @@ export default function Songs() {
   let idArr = [];
   songsArr.map(item => idArr.push(item.id));
   const { data: songsData, isSuccess, isLoading } = useGetSongDetailQuery(idArr.join())
-
   return (
-    <div className={styles.Container}>
-      <div className={styles.Top}>
-        <div>操作</div>
-        <div>标题</div>
-        <div>歌手</div>
-        <div>专辑</div>
-        <div>时间</div>
-      </div>
-      {/* <h2>雷猴</h2> */}
+    <div className={styles.Body}>
+      <table className={styles.Container}>
+        <thead className={styles.Top}>
+          <tr>
+            <th>操作</th>
+            <th>标题</th>
+            <th>歌手</th>
+            <th>专辑</th>
+            <th>时间</th>
+          </tr>
+        </thead>
+        <tbody>
+          {isSuccess && songsData.songs.map((item, index) => <Song key={item.id} data={item} i={index} />)}
+        </tbody>
+      </table>
       {(isLoading && !isSuccess) && <h2>Loading....</h2>}
-      {isSuccess && songsData.songs.map((item, index) => <Song key={item.id} data={item} i={index} />)}
     </div>
   )
 }

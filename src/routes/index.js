@@ -10,7 +10,12 @@ import DetailPage from "../pages/DetailPage";
 import Songs from "../pages/DetailPage/Middle/Songs";
 import Comment from "../pages/DetailPage/Middle/Comment";
 import Collect from "../pages/DetailPage/Middle/Collect";
+import { Navigate } from "react-router-dom";
 const routes = [
+    {
+        path: '/findmusic',
+        element: <Navigate replace to={'/findmusic/recommend'} />
+    },
     {
         path: 'findmusic',
         element: <FindMusic />,
@@ -19,6 +24,10 @@ const routes = [
                 path: 'recommend',
                 element: <Recommend />,
                 children: [
+                    {
+                        path:'list/:id',
+                        element:<Navigate replace to={'songlist'}/>
+                    },
                     {
                         path: 'list/:id',
                         element: <DetailPage />,
@@ -65,6 +74,7 @@ const routes = [
         path: '/',
         element: <HomePage />
         // element: <Navigate to='/findmusic/recommend' />
-    }
+    },
+
 ]
 export default routes

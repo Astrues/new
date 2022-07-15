@@ -32,7 +32,13 @@ const songsApi = createApi({
                 }
             }),
             // 获取音乐url
-            
+
+            // 热搜详细
+            getHotSearch: build.query({
+                query(){
+                    return  "/search/hot/detail"
+                }
+            })
         }
     }
 })
@@ -41,5 +47,6 @@ export const {
     useGetBannerQuery,
     useGetSongsDetailQuery,
     useGetSongDetailQuery,
+    useGetHotSearchQuery,
 } = songsApi
 export default songsApi

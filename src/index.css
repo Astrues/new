@@ -20,5 +20,6 @@ li {
 
 #root {
     position: relative;
-    height: 1200px;
+    width: 100%;
+    /* height: 1200px; */
 }
