@@ -1,0 +1,15 @@
+.Official {
+    position: absolute;
+    top: 120px;
+    left: 200rem;
+}
+
+.Title {
+    font-size: 26px;
+}
+
+@media screen and (min-width:1000px) {
+    .Official{
+        left: 120rem;
+    }
+}

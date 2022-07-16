@@ -1,0 +1,21 @@
+.Item {
+    width: 138px;
+    height: 138px;
+    background-color: pink;
+    margin-left: 20px;
+    margin-top: 50px;
+}
+.Img{
+    width: 138px;
+    height: 138px;
+}
+@media screen and (min-width:1000px) {
+    .Item {
+        width: 205px;
+        height: 205px;
+    }
+    .Img{
+        width: 205px;
+        height: 205px;
+    }
+}

@@ -1,0 +1,27 @@
+.Container {
+    position: absolute;
+    display: flex;
+    flex-wrap: wrap;
+    /* top: 800px; */
+    width: 80%;
+    left: 200rem;
+    top: 1100px;
+    padding-bottom: 100px;
+}
+
+.title {
+    position: absolute;
+    top: 1050px;
+    font-size: 26px;
+    left: 200rem;
+}
+
+@media screen and (min-width:1000px) {
+    .Container {
+        left: 120rem;
+    }
+
+    .title {
+        left: 120rem;
+    }
+}

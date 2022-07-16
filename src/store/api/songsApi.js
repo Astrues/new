@@ -35,8 +35,14 @@ const songsApi = createApi({
 
             // 热搜详细
             getHotSearch: build.query({
-                query(){
-                    return  "/search/hot/detail"
+                query() {
+                    return "/search/hot/detail"
+                }
+            }),
+            // 获取排行榜信息
+            getRankData: build.query({
+                query() {
+                    return '/toplist/detail'
                 }
             })
         }
@@ -48,5 +54,6 @@ export const {
     useGetSongsDetailQuery,
     useGetSongDetailQuery,
     useGetHotSearchQuery,
+    useGetRankDataQuery,
 } = songsApi
 export default songsApi
